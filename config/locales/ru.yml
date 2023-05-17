@@ -1,0 +1,30 @@
+ru:
+  static_pages:
+    index:
+      welcome: "Добро пожаловать!"
+      services_html: "Мы предоставляем различные услуги для <em>хороших людей</em>."
+
+  global:
+    menu:
+      home: "Главная"
+      feedback: "Отзывы"
+
+  activerecord:
+    attributes:
+      feedback:
+        author: "Ваше имя"
+        message: "Сообщение"
+
+  global:
+    forms:
+      submit: Отправить
+      messages:
+        errors:
+          one: "Не удалось сохранить отзыв! Найдена одна ошибка:"
+          few: "Не удалось сохранить отзыв! Найдены %{count} ошибки:"
+          many: "Не удалось сохранить отзыв! Найдено %{count} ошибок:"
+          other: "Не удалось сохранить отзыв! Найдена %{count} ошибка:"
+
+  global:
+    feedback:
+      posted_by: "Автор: %{author}"
