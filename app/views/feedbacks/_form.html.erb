@@ -2,7 +2,7 @@
   <% if feedback.errors.any? %>
     <div id="error_explanation">
       <h2><%= t 'global.forms.messages.errors', count: feedback.errors.count %></h2>
-      
+
       <ul>
         <% feedback.errors.each do |error| %>
           <li><%= error.full_message %></li>
@@ -23,6 +23,6 @@
 
   <div class="actions">
     <%# <%= form.submit %>
-    <%= form.submit t('global.forms.submit') %>
+    <%= form.submit %>
   </div>
 <% end %>

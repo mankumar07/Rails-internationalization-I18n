@@ -30,6 +30,10 @@
 # available at https://guides.rubyonrails.org/i18n.html.
 
 en:
+  new_feedback: "New Feedback"
+  home: "Home"
+  feedback: "Feedback"
+
   static_pages:
     index:
       welcome: "Welcome!"
@@ -43,7 +47,7 @@ en:
   activerecord:
     attributes:
       feedback:
-        author: "Your name"
+        author: "author"
         message: "Message"
 
   activerecord:
@@ -52,7 +56,7 @@ en:
 
   global:
     forms:
-      submit: Submit
+      submit: "Submit"
       messages:
         errors:
           one: "One error prohibited this feedback from being saved"

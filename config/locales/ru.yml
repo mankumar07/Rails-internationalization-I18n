@@ -1,4 +1,8 @@
 ru:
+  new_feedback: "Новый отзыв"
+  home: "Главная"
+  feedback: "Отзывы"
+
   static_pages:
     index:
       welcome: "Добро пожаловать!"
@@ -17,7 +21,7 @@ ru:
 
   global:
     forms:
-      submit: Отправить
+      submit: "Отправить"
       messages:
         errors:
           one: "Не удалось сохранить отзыв! Найдена одна ошибка:"
